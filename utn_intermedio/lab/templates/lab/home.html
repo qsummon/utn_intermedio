@@ -1,19 +1,21 @@
 {% extends "lab/base.html" %}
-{% block content%}
-  {% for post in post %}
-    <article class="media content-section">
-      <div class="media-body">
-        <div class="article-metadata">
-          <a class="mr-2" href="#">{{ post.author }}</a>
-          <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
-        </div>
-        <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.titulo }}</a></h2>
-        <p class="article-content">{{ post.titulo }}</p>
-        <p class="article-content">{{ post.subtitulo }}</p>
-        <p class="article-content">{{ post.contenido }}</p>
-      </div>
-    </article>
-
-
-  {% endfor %}
+{% block content %}
+  {% if user.is_authenticated %}
+    {% for post in post %}
+      <article class="media content-section">
+        <div class="media-body">
+          <div class="article-metadata">
+            <a class="mr-2" href="#">{{ post.author }}</a>
+            <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+          </div>
+            <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.titulo }}</a></h2>
+            <p class="article-content">{{ post.descripcion }}</p>
+          </div>
+      </article>
+    {% endfor %}
+  {% else %}
+    <div class = "login nosotros-contenedor">
+      <p class="subtitulo"><b> Se debe establecer sesion para utilizar Notes App</b></p>
+    </div>
+  {% endif %}
 {% endblock content %}
