@@ -2,7 +2,13 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import (
+    ListView,
+    DetailView,
+    CreateView,
+    UpdateView,
+    DeleteView,
+    )
 from .models import Post
 # from django.http import HttpResponse
 
@@ -28,7 +34,8 @@ class PostDetailView(DetailView):
 
 class PostCreateView(LoginRequiredMixin, CreateView):
     model = Post
-    fields = ['title', 'content']
+    # fields = ['title', 'subtitle', 'content']
+    fields = ['titulo', 'descripcion', 'contenido']
 
     def form_valid(self, form):
         form.instance.author = self.request.user
@@ -37,7 +44,8 @@ class PostCreateView(LoginRequiredMixin, CreateView):
 
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
-    fields = ['title', 'content']
+    # fields = ['title', 'subtitle', 'content']
+    fields = ['titulo', 'descripcion', 'contenido']
 
     def form_valid(self, form):
         form.instance.author = self.request.user

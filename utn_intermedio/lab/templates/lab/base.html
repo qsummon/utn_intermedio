@@ -21,7 +21,7 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'lab-home' %}">Notes app</a>
+          <a class="navbar-brand mr-4" href="{% url 'lab-home' %}">Notas app</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,7 +34,6 @@
             <div class="navbar-nav">
               {% if user.is_authenticated %}
                 <a class="nav-item nav-link" href="{% url 'post-create'%}">Nueva Nota</a>
-                <a class="nav-item nav-link" href="{% url 'profile'%}">Perfil</a>
                 <a class="nav-item nav-link" href="{% url 'logout'%}">Logout</a>
               {% else %}
                 <a class="nav-item nav-link" href="{% url 'login'%}">Login</a>
