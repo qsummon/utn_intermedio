@@ -1,5 +1,5 @@
 # NOTES APP
-Aplicación desarrollada para entrega final de Python nivel intermedio
+Aplicación desarrollada para entrega final de Python nivel intermedio  
 Universidad UTN  
 
 ## Integrantes del equipo
@@ -30,7 +30,7 @@ setuptools          44.1.1
 sqlparse            0.4.2
 typing-extensions   3.10.0.2
 ```
-## para instalacion de ambiente virtual
+## Instalacion de ambiente virtual
 ```
 pip install -r requirements.txt
 ```
