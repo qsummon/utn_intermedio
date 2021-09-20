@@ -5,7 +5,7 @@ Aplicación desarrollada para entrega final de Python nivel intermedio
 Federico Daniel Ara  
 Marcelo Fabian Zurita  
 
-## Descripcion
+## Descripción
 Notes Apps es una aplicacion desarrollada en python 3.x bajo el framework django  
 La aplicación permite generar, compartir, borrar, editar notas  
 Cuenta con un servicio de autenticación (users)  
@@ -36,6 +36,7 @@ typing-extensions   3.10.0.2
 - LINUX
 ```
 ## Uso:
+```
 Una vez instalado python y sus dependencias se debe ejecutar el server de Django
 Bajo el directorio utn_intermedio ejecutar lo siguiente
 
@@ -44,7 +45,7 @@ Revisar que el server corra sin problemas e ingresar al navegador de internet co
 el siguiente Link
 http://127.0.0.1:8000/
 Se deberá establecer sesion (Consultar usuarios y claves)
-
+```
 ## listado de Usuarios/passwords
 
 ## Link a documentacion (se requiere usuario admin)
