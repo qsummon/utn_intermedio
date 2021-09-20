@@ -1,4 +1,5 @@
-# utn_intermedio NOTES APP
+# NOTES APP
+Aplicación desarrollada para entrega final de Python nivel intermedio
 
 ## Integrantes del equipo
 Federico Daniel Ara
@@ -28,12 +29,12 @@ sqlparse            0.4.2
 typing-extensions   3.10.0.2
 
 
-### Platforms
+## Platforms
 ```
 - Windows 10
 - LINUX
 ```
-#### Uso:
+## Uso:
 Una vez instalado python y sus dependencias se debe ejecutar el server de Django
 Bajo el directorio utn_intermedio ejecutar lo siguiente
 
@@ -43,9 +44,9 @@ el siguiente Link
 http://127.0.0.1:8000/
 Se deberá establecer sesion (Consultar usuarios y claves)
 
-#### listado de Usuarios/passwords
+## listado de Usuarios/passwords
 
-#### Link a documentacion (se requiere usuario admin)
+## Link a documentacion (se requiere usuario admin)
 http://127.0.0.1:8000/admin/doc/
 
 ## Autores
