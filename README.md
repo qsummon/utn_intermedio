@@ -1,5 +1,6 @@
 # NOTES APP
-Aplicación desarrollada para entrega final de Python nivel intermedio  
+Aplicación desarrollada para entrega final de Python nivel intermedio
+Universidad UTN  
 
 ## Integrantes del equipo
 Federico Daniel Ara  
