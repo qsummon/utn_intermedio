@@ -47,7 +47,7 @@ http://127.0.0.1:8000/
 
 Se deberá establecer sesion (Consultar usuarios y claves)
 ```
-## listado de Usuarios/passwords
+## Listado de Usuarios/passwords
 
 ## Link a documentacion (se requiere usuario admin)
 http://127.0.0.1:8000/admin/doc/
@@ -55,6 +55,5 @@ http://127.0.0.1:8000/admin/doc/
 ## Autores
 * ** Federico Daniel Ara
 * ** Marcelo Fabian Zurita
-
 
 ## Legal Disclaimers
