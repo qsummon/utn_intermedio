@@ -1,9 +1,9 @@
 # NOTES APP
-Aplicación desarrollada para entrega final de Python nivel intermedio
+Aplicación desarrollada para entrega final de Python nivel intermedio  
 
 ## Integrantes del equipo
-Federico Daniel Ara
-Marcelo Fabian Zurita
+Federico Daniel Ara  
+Marcelo Fabian Zurita  
 
 ## Descripcion
 Notes Apps es una aplicacion desarrollada en python 3.x bajo el framework django
@@ -14,9 +14,10 @@ Cuenta con un servicio de autenticación (users)
 https://github.com/qsummon/utn_intermedio
 
 ## Requirements
-python 3.6 o superior
+```
+python 3.6 o superior  
 
-Package             Version
+Package             Version  
 ------------------- --------
 asgiref             3.4.1
 Django              3.2.7
@@ -27,7 +28,7 @@ pytz                2021.1
 setuptools          44.1.1
 sqlparse            0.4.2
 typing-extensions   3.10.0.2
-
+```
 
 ## Platforms
 ```
