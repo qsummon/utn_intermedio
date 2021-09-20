@@ -1,4 +1,4 @@
-#from django.conf.urls import url
+# from django.conf.urls import url
 from django.urls import path
 from .views import (
     PostListView,
@@ -9,6 +9,7 @@ from .views import (
     )
 from . import views
 
+# Creacion de patterns con primary key para post/update/delete
 urlpatterns = [
     # url('', views.home, name='lab-home'),
     path('', PostListView.as_view(), name='lab-home'),

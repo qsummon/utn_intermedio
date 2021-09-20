@@ -1,19 +1,12 @@
 from django.db import models
 
-# Create your models here.
 from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
-# Create your models here.
 
 
+# Clase para input de notas
 class Post(models.Model):
-    # title = models.CharField(max_length=100)
-    # subtitle = models.CharField(max_length=100, default='')
-    # content = models.TextField()
-
-    # testing verbose
-    # titulo = models.CharField(max_length=100, verbose_name='TESTING')
     titulo = models.CharField(max_length=100)
     descripcion = models.CharField(max_length=100, default='')
     contenido = models.TextField()
@@ -24,9 +17,11 @@ class Post(models.Model):
     def __str__(self):
         return self.titulo
 
+    # Retorno el reverso con la primary key de la BBDD
     def get_absolute_url(self):
         return reverse('post-detail', kwargs={'pk': self.pk})
 
+    # Metaclass para modificar Post en modelo de datos y presentacion
     class Meta:
         verbose_name = 'nota'
         verbose_name_plural = 'notas'
