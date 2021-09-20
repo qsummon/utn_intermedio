@@ -42,7 +42,7 @@ Una vez instalado python y sus dependencias se debe ejecutar el server de Django
 Bajo el directorio utn_intermedio ejecutar lo siguiente
 python manage.py runserver
 
-Revisar que el server corra sin problemas e ingresar al navegador de internet con
+Revisar que el server corra sin problemas e ingresar desde un navegador
 el siguiente Link
 http://127.0.0.1:8000/
 
