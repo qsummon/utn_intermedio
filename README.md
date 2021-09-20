@@ -6,9 +6,9 @@ Federico Daniel Ara
 Marcelo Fabian Zurita  
 
 ## Descripcion
-Notes Apps es una aplicacion desarrollada en python 3.x bajo el framework django
-La aplicación permite generar, compartir, borrar, editar notas
-Cuenta con un servicio de autenticación (users)
+Notes Apps es una aplicacion desarrollada en python 3.x bajo el framework django  
+La aplicación permite generar, compartir, borrar, editar notas  
+Cuenta con un servicio de autenticación (users)  
 
 ## Github Link
 https://github.com/qsummon/utn_intermedio
