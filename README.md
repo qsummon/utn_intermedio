@@ -39,11 +39,12 @@ typing-extensions   3.10.0.2
 ```
 Una vez instalado python y sus dependencias se debe ejecutar el server de Django
 Bajo el directorio utn_intermedio ejecutar lo siguiente
-
 python manage.py runserver
+
 Revisar que el server corra sin problemas e ingresar al navegador de internet con
 el siguiente Link
 http://127.0.0.1:8000/
+
 Se deberá establecer sesion (Consultar usuarios y claves)
 ```
 ## listado de Usuarios/passwords
