@@ -30,6 +30,10 @@ setuptools          44.1.1
 sqlparse            0.4.2
 typing-extensions   3.10.0.2
 ```
+## para instalacion de ambiente virtual
+```
+pip install -r requirements.txt
+```
 
 ## Platforms
 ```
