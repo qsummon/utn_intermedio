@@ -35,6 +35,7 @@ typing-extensions   3.10.0.2
 - Windows 10
 - LINUX
 ```
+
 ## Uso:
 ```
 Una vez instalado python y sus dependencias se debe ejecutar el server de Django
@@ -47,13 +48,21 @@ http://127.0.0.1:8000/
 
 Se deberá establecer sesion (Consultar usuarios y claves)
 ```
-## Listado de Usuarios/passwords
+
+## Listado de Usuarios / passwords
+```
+admin : admin
+gaquino : utn.intermedio
+jbarreto : utn.intermedio
+
+```
 
 ## Link a documentacion (se requiere usuario admin)
 http://127.0.0.1:8000/admin/doc/
 
+## Link a administracion (se requiere usuario admin)
+http://127.0.0.1:8000/admin/
+
 ## Autores
 * ** Federico Daniel Ara
 * ** Marcelo Fabian Zurita
-
-## Legal Disclaimers
