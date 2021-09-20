@@ -59,7 +59,6 @@ Se deberá establecer sesion (Consultar usuarios y claves)
 admin : admin
 gaquino : utn.intermedio
 jbarreto : utn.intermedio
-
 ```
 
 ## Link a documentacion (se requiere usuario admin)
